@@ -1,6 +1,7 @@
 from typing import List, Iterable
 
 import flair
+import pytest
 import spacy
 from bertopic import BERTopic
 from flair.models import SequenceTagger
@@ -100,6 +101,7 @@ def test_keybert_integration():
         validate_keyphrases(actual, expected, min_match=0.6)
 
 
+@pytest.mark.skip("The model in this test require spacy-curated-transformers to be installed.")
 def test_french_trf_spacy_pipeline():
     sorted_french_test_keyphrases = utils.get_french_test_keyphrases()
     # sorted_french_count_matrix = utils.get_sorted_french_count_matrix()
