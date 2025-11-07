@@ -6,6 +6,13 @@
 [![DOI:10.5220/0011546600003335](https://zenodo.org/badge/DOI/10.5220/0011546600003335.svg)](https://doi.org/10.5220/0011546600003335)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/patternrank-leveraging-pretrained-language/keyphrase-extraction-on-inspec)](https://paperswithcode.com/sota/keyphrase-extraction-on-inspec?p=patternrank-leveraging-pretrained-language)
 
+This is an Exasol fork of the [KeyphraseVectorizers](https://github.com/TimSchopf/KeyphraseVectorizers) package.
+We thank the authors - Tim Schopf, Simon Klimek, Florian Matthes - for their amazing work on the research and
+implementation of this novel keyword extraction algorithm.
+
+In the future we may add or remove some of the features in this fork. Below is the content of the original 
+[README.md](https://github.com/TimSchopf/KeyphraseVectorizers/blob/master/README.md).
+
 KeyphraseVectorizers
 ===================== 
 
