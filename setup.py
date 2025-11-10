@@ -15,9 +15,9 @@ with open(ver_path) as ver_file:
     base_packages = ver_file.read().splitlines()
 
 setuptools.setup(
-    name='keyphrase-vectorizers',
+    name='exasol-keyphrase-vectorizers',
     version=main_ns['__version__'],
-    url='https://github.com/TimSchopf/KeyphraseVectorizers',
+    url='https://github.com/exasol/keyphrase-vectorizers',
     license='BSD 3-Clause "New" or "Revised" License',
     author='Tim Schopf',
     author_email='tim.schopf@t-online.de.de',
@@ -37,6 +37,6 @@ setuptools.setup(
     install_requires=base_packages,
     package_dir={"": "."},
     packages=setuptools.find_packages(where="."),
-    python_requires='>=3.7',
+    python_requires='>=3.10',
     data_files=[('requirements', ['requirements.txt'])],
 )
